@@ -1,0 +1,40 @@
+#grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;    
+}
+
+.square {
+    height: calc(100% / 16);
+    width: calc(100% / 16);
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: white;
+    transition: background-color 0.3s ease;}
+
+.square:hover {
+    background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin-bottom: 20px;
+  background-color: #4CAF50; /* green background */
+  color: #fff; /* white text */
+  padding: 10px 20px; /* add some padding */
+  border: none; /* remove border */
+  border-radius: 5px; /* add some rounded corners */
+  cursor: pointer; /* change cursor to pointer */
+  position: relative;
+  top: 10px;
+  left: 10px; 
+
+}
